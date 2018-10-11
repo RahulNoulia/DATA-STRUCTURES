@@ -7,14 +7,13 @@
 void addrear(int *,int,int *,int *);
 void delfront(int *,int,int *,int *);
 void display(int *,int,int *,int *);
-void quit();
 int main()
 {
 	int ch,queue[max],front=-1,rear=-1;
 	while(1)
 	{
 		system("cls");
-		printf("\nMENU : \n\n Add : 1 \n\n Delete : 2 \n\n Display : 3 \n\n Quit : 4 \n\n Enter Choice : ");
+		printf("\n\nMENU : \n\n Add : 1 \n\n Delete : 2 \n\n Display : 3 \n\n Quit : 4 \n\n Enter Choice -> ");
 		scanf("%d",&ch);
 		switch(ch)
 		{
@@ -50,7 +49,7 @@ void addrear(int *p,int n,int *f,int *r)
 	 {
 	 	(*r)++;
 	 }
-	 printf("\n\nEnter Element : ");
+	 printf("\n\nEnter Element ->  ");
 	 scanf("%d",&element);
 	 p[*r]=element;
 }
