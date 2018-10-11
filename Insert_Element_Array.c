@@ -15,7 +15,7 @@ int main()
     while(1)
 {
      printf("\n Menu: \n\n 1 . Input \n\n 2 . Display  \n\n 3 . Insert element \n\n 4 . Quit  \n");
-     printf("\n Enter choice:");
+     printf("\n Enter choice -> ");
      scanf("%d",&ch);
      switch(ch)
      {
