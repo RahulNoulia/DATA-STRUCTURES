@@ -7,7 +7,6 @@ void input(int *,int);
 void output(int *,int);
 void sort(int *,int);
 void merge(int *,int *,int *,int,int);
-void quit();
 int main()
 {
     int a1[20],a2[20],a3[40],l,m,n,ch;
