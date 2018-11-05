@@ -20,7 +20,7 @@ int main()
     int ch;  
     while(1)
     {
-        printf("\n\n MENU : \n\n PUSH : 1 \n\n POP : 2 \n\n Traverse : 3 \n\n Quit : 4 \n\n Enter choice :  ");
+        printf("\n\n MENU : \n\n 1 . PUSH  \n\n 2 . POP  \n\n 3 . Traverse  \n\n 4 .  Quit  \n\n Enter choice :  ");
         scanf("%d",&ch);
         switch(ch)
         {
