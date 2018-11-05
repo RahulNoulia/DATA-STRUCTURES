@@ -4,12 +4,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define max 5
-void add(int *,int,int *,int *,int);
+void add(int *,int,int *,int *);
 void del(int *,int,int *,int *);
 void display(int *,int *,int *);
 int main()
 {
-	int queue[max],front=-1,rear=-1,i,element, choice;
+	int queue[max],front=-1,rear=-1,i, choice;
       while (1)
 	{
 		printf("\n\nMENU  \n\n 1 . Add   \n\n 2 . Delete \n\n 3 . Display  \n\n 4 . Quit ");
@@ -30,11 +30,12 @@ int main()
 	}
 	return 0;
 }
-void add(int *p,int l,int *f,int *r,int element)
+void add(int *p,int l,int *f,int *r)
 {
+   int element;
    if(*r==l-1)
    {
-      printf("queue is full");
+      printf("\nQueue is full");
       return;
    }
    if(*f==-1)
@@ -46,7 +47,7 @@ void add(int *p,int l,int *f,int *r,int element)
    {
      (*r)++;
    }
-   printf("\nenter element:");
+   printf("\nEnter element -> ");
    scanf("%d",&element);
    p[*r]=element;
 }
