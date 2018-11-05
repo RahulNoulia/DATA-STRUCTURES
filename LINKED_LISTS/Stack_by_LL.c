@@ -38,11 +38,8 @@ void push()
     c=(x *)malloc(sizeof(x));
      printf("\n\n Enter element : ");
      scanf("%d",&c->data);
-      if(top==NULL)
-    {
        c->link=top;   
         top=c;
-     }
 }
 void pop()
 {
