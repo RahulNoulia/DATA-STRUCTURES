@@ -1,5 +1,6 @@
 # DATA-STRUCTURES
 
+Hey Coder's ,
 
-Hey Coder's This is  Data Structure programs 
+In this reposistory one can find Data Structure programs in Java , C , C++ and very few in python .
 
